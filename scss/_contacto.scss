@@ -2,6 +2,7 @@
 .contacto {
   display: flex;
   flex-direction: column;
+  // link email
   a {
     text-decoration: none;
     color: black;
@@ -15,6 +16,7 @@
     text-decoration: none;
     text-align: center;
   }
+  //   logos de redes
   img {
     align-self: center;
     justify-self: center;
