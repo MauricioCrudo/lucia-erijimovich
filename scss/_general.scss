@@ -1,0 +1,93 @@
+@import "variables";
+// Reset
+* {
+  padding: 0;
+  margin: 0;
+}
+// Header
+header {
+  font-family: $font1;
+  .navbar {
+    background-color: grey;
+  }
+}
+// animacion
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(1000px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+main {
+  animation: transitionIn 0.5s;
+}
+@keyframes navbar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.navbar {
+  animation: navbar 0.5s;
+}
+
+// Main
+main {
+  min-height: 83vh;
+  h1 {
+    font-family: $font1;
+    text-align: center;
+    margin: 20px;
+  }
+  .breadcrumb {
+    align-self: flex-end;
+    font-family: $font1;
+    ol {
+      margin-left: 15px;
+    }
+    li {
+      margin: 3px;
+    }
+  }
+  // main mobile
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    min-height: 80vh;
+  }
+}
+
+// footer
+footer {
+  overflow: hidden;
+
+  .copyright {
+    font-family: $font1;
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+    padding-top: 20px;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .redes-sociales {
+    img {
+      height: 20px;
+      width: auto;
+      margin: 15px;
+    }
+    li {
+      list-style-type: none;
+      transition: 0.2s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

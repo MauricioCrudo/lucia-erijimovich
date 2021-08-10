@@ -1,0 +1,28 @@
+.videos-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  .videos-desktop {
+    margin: auto;
+  }
+  .videos-mobile {
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .videos-desktop {
+    display: inline-block;
+  }
+  .videos-mobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .videos-desktop {
+    display: none;
+  }
+  .videos-mobile {
+    display: inline-block;
+  }
+}

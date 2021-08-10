@@ -1,0 +1,56 @@
+@import "variables";
+.contacto {
+  display: flex;
+  flex-direction: column;
+  a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    &:hover {
+      color: rgb(46, 46, 46);
+    }
+  }
+  h2 {
+    font-family: $font1;
+    text-decoration: none;
+    text-align: center;
+  }
+  img {
+    align-self: center;
+    justify-self: center;
+    height: 4.5rem;
+    margin: 40px;
+  }
+}
+.redes-contact {
+  align-self: center;
+  justify-self: center;
+}
+/*Vista Desktop*/
+@media only screen and (min-width: 1240px) {
+  h2 {
+    font-size: 6rem;
+  }
+}
+/*Vista Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1239px) {
+  h2 {
+    font-size: 4rem;
+  }
+  .redes-contact {
+    img {
+      height: 3.5rem;
+    }
+  }
+}
+/*Vista Mobile*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+  .redes-contact {
+    img {
+      height: 3.5rem;
+    }
+  }
+}

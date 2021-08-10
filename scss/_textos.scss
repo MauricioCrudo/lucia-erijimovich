@@ -1,0 +1,49 @@
+@import "variables";
+.textos-main {
+  overflow: hidden;
+}
+.textos-flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: hidden;
+  .card {
+    margin: 5px;
+    .card-title {
+      font-family: $font1;
+    }
+    .card-text {
+      font-family: $font3;
+      font-weight: 400;
+    }
+    .card-link {
+      text-decoration: none;
+      color: black;
+      transition: 0.5s;
+      &:hover {
+        color: rgb(58, 58, 58);
+      }
+    }
+  }
+}
+// textos individuales
+.main-text-exp {
+  overflow: hidden;
+}
+.texto-exp {
+  text-align: center;
+  font-family: $font4;
+  line-height: 5vh;
+}
+
+// mobile
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .texto-exp {
+    text-align: center;
+    font-family: $font4;
+    line-height: 4vh;
+  }
+  #dimensiones {
+    line-height: 4vh;
+  }
+}

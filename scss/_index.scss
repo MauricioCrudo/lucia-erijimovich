@@ -1,0 +1,36 @@
+// .main-index {
+//   display: flex;
+//   justify-content: center;
+//   align-content: center;
+//   img {
+//     // max-height: 87vh;
+//     // width: 100%;
+//     // object-fit: cover;
+//   }
+// }
+.main-index {
+  /*Vista Desktop*/
+  @media only screen and (min-width: 1240px) {
+    img {
+      object-fit: contain;
+      height: 87vh;
+    }
+  }
+  /*Vista Tablet*/
+  @media only screen and (min-width: 768px) and (max-width: 1239px) {
+    img {
+      object-fit: cover;
+      height: 87vh;
+    }
+  }
+  /*Vista Mobile*/
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    header {
+      margin-bottom: 15px;
+    }
+    img {
+      object-fit: cover;
+      height: 75vh;
+    }
+  }
+}
