@@ -60,28 +60,32 @@ footer {
     margin: 15px; }
   footer .redes-sociales li {
     list-style-type: none;
-    transition: 0.2s; }
+    transition: 0.05s; }
     footer .redes-sociales li:hover {
       transform: scale(1.2); }
 
+.navbar-index {
+  position: static; }
+
 .main-index {
+  position: relative;
   /*Vista Desktop*/
   /*Vista Tablet*/
   /*Vista Mobile*/ }
   @media only screen and (min-width: 1240px) {
     .main-index img {
-      object-fit: contain;
-      height: 87vh; } }
+      object-fit: cover;
+      height: 94vh;
+      width: 100vw; } }
   @media only screen and (min-width: 768px) and (max-width: 1239px) {
     .main-index img {
       object-fit: cover;
-      height: 87vh; } }
+      height: 94vh;
+      width: 100vw; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .main-index header {
-      margin-bottom: 15px; }
     .main-index img {
       object-fit: cover;
-      height: 75vh; } }
+      height: 94vh; } }
 
 .obras-main {
   display: flex;
@@ -99,12 +103,33 @@ footer {
   align-self: center;
   display: block;
   width: auto;
-  height: 70vhs;
+  height: 70vh;
   object-fit: contain; }
 
 .obras-flex {
   display: flex;
   flex-direction: column; }
+
+.breadcrumb-back {
+  width: 85vw;
+  position: relative;
+  left: 15vw; }
+  .breadcrumb-back a {
+    color: black;
+    transition: 0.25s; }
+    .breadcrumb-back a:hover {
+      color: #d60c74; }
+
+.breadcrumb-next {
+  width: 85vw;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center; }
+  .breadcrumb-next a {
+    color: black;
+    transition: 0.25s; }
+    .breadcrumb-next a:hover {
+      color: #d60c74; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .img-exp {
@@ -192,6 +217,10 @@ footer {
 .redes-contact {
   align-self: center;
   justify-self: center; }
+  .redes-contact a {
+    transition: 0.5s; }
+    .redes-contact a:hover {
+      transform: scale(10px); }
 
 /*Vista Desktop*/
 @media only screen and (min-width: 1240px) {

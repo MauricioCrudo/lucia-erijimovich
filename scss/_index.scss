@@ -1,26 +1,29 @@
+.navbar-index{
+  position: static; 
+}
 .main-index {
+  position: relative;
   /*Vista Desktop*/
-  @media only screen and (min-width: 1240px) {
+  @media only screen and (min-width: '1240px') {
     img {
-      object-fit: contain;
-      height: 87vh;
+      object-fit: cover;
+      height: 94vh;
+      width: 100vw;
     }
   }
   /*Vista Tablet*/
   @media only screen and (min-width: 768px) and (max-width: 1239px) {
     img {
       object-fit: cover;
-      height: 87vh;
+      height: 94vh;
+      width: 100vw;
     }
   }
   /*Vista Mobile*/
   @media only screen and (min-width: 0px) and (max-width: 767px) {
-    header {
-      margin-bottom: 15px;
-    }
-    img {
+    img { 
       object-fit: cover;
-      height: 75vh;
+      height: 94vh;
     }
   }
 }

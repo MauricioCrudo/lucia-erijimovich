@@ -1,0 +1,31 @@
+.carousel { z-index: -99;  /* keeps this behind all content */
+    .item {
+    position: fixed; 
+    width: 100%; height: 100%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    }
+ .one {
+    background: url(../assets/img/carrusel/LoQueExtranoAdemas.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.two {
+    background: url(../assets/img/carrusel/MujerEnLaNoche.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.three {
+    background: url(../assets/img/HistoriaDeUnaNocheDecepcionante.jpeg);
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.active.left {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
+}

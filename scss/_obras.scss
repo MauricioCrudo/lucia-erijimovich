@@ -19,13 +19,39 @@
   align-self: center;
   display: block;
   width: auto;
-  height: 70vhs;
+  height: 70vh;
   object-fit: contain;
 }
 .obras-flex {
   display: flex;
   flex-direction: column;
 }
+.breadcrumb-back{
+  width: 85vw;
+  position: relative;
+  left: 15vw;
+    a{
+    color: black;
+    transition: 0.25s;
+    &:hover{
+      color:rgb(214, 12, 116) ;
+    }
+    }
+  }
+.breadcrumb-next{
+  width: 85vw;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  a{
+    color: black;
+    transition: 0.25s;
+    &:hover{
+      color:rgb(214, 12, 116) ;
+    }
+    }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .img-exp {
     max-width: 100vw;
