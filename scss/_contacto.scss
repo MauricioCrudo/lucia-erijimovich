@@ -2,37 +2,49 @@
 .contacto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   // link email
   a {
     text-decoration: none;
     color: black;
-    transition: 0.2s;
+    transition: 0.3s;
     &:hover {
       color: rgb(214, 12, 116);
     }
   }
   h2 {
     font-family: $font1;
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
   }
   //   logos de redes
+
   img {
     align-self: center;
     justify-self: center;
     height: 4.5rem;
     margin: 40px;
+    a{
+      transition: 0.5s;
+        &:hover{
+          transform: scale(10px);
+        }
+    }
   }
 }
 .redes-contact {
-  align-self: center;
-  justify-self: center;
-  a{
-  transition: 0.5s;
+  width: 100vw;
+  ul{
+    display: flex;
+    justify-content: center;
+  }
+  li{
+    list-style-type: none;
+    transition: 0.2s;
     &:hover{
-      transform: scale(10px);
+      transform: scale(1.5);
     }
-}
+  }
 }
 /*Vista Desktop*/
 @media only screen and (min-width: 1240px) {

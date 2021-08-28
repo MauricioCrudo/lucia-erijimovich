@@ -1,6 +1,7 @@
 @import "variables";
 .textos-main {
   overflow: hidden;
+  height: 83vh;
 }
 .textos-flex {
   display: flex;
@@ -28,12 +29,35 @@
 }
 // textos individuales
 .main-text-exp {
-  overflow: hidden;
+  overflow: hidden; 
 }
 .texto-exp {
   text-align: center;
   font-family: $font4;
   line-height: 5vh;
+  
+  .breadcrumb-back{
+      a{
+      color: black;
+      transition: 0.25s;
+      &:hover{
+        color:rgb(214, 12, 116) ;
+      }
+      }
+    }
+  .breadcrumb-next{
+    width: 85vw;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    a{
+      color: black;
+      transition: 0.25s;
+      &:hover{
+        color:rgb(214, 12, 116) ;
+      }
+      }
+  }
 }
 
 // mobile

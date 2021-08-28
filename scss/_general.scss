@@ -34,13 +34,13 @@ main {
     opacity: 1;
   }
 }
-.navbar {
+.navbar  {
   animation: navbar 0.5s;
 }
 
 // Main
 main {
-  min-height: 83vh;
+  min-height: 80vh;
   h1 {
     font-family: $font1;
     text-align: center;
@@ -70,7 +70,6 @@ footer {
     font-family: $font1;
     font-size: 15px;
     color: rgb(150, 150, 150);
-    padding-top: 20px;
   }
   ul {
     display: flex;

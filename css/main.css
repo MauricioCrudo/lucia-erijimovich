@@ -28,7 +28,7 @@ main {
   animation: navbar 0.5s; }
 
 main {
-  min-height: 83vh; }
+  min-height: 80vh; }
   main h1 {
     font-family: "Oswald", sans-serif;
     text-align: center;
@@ -49,8 +49,7 @@ footer {
   footer .copyright {
     font-family: "Oswald", sans-serif;
     font-size: 15px;
-    color: #969696;
-    padding-top: 20px; }
+    color: #969696; }
   footer ul {
     display: flex;
     justify-content: flex-end; }
@@ -85,7 +84,7 @@ footer {
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .main-index img {
       object-fit: cover;
-      height: 94vh; } }
+      height: 93vh; } }
 
 .obras-main {
   display: flex;
@@ -95,7 +94,7 @@ footer {
     object-fit: cover;
     height: 500px;
     margin: 8px 2px;
-    transition: 0.5s; }
+    transition: 0.2s; }
     .obras-main .img-obras:hover {
       filter: blur(10px); }
 
@@ -103,7 +102,7 @@ footer {
   align-self: center;
   display: block;
   width: auto;
-  height: 70vh;
+  height: 62vh;
   object-fit: contain; }
 
 .obras-flex {
@@ -138,7 +137,8 @@ footer {
     margin: 5px; } }
 
 .textos-main {
-  overflow: hidden; }
+  overflow: hidden;
+  height: 83vh; }
 
 .textos-flex {
   display: flex;
@@ -166,6 +166,21 @@ footer {
   text-align: center;
   font-family: "Roboto", sans-serif;
   line-height: 5vh; }
+  .texto-exp .breadcrumb-back a {
+    color: black;
+    transition: 0.25s; }
+    .texto-exp .breadcrumb-back a:hover {
+      color: #d60c74; }
+  .texto-exp .breadcrumb-next {
+    width: 85vw;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center; }
+    .texto-exp .breadcrumb-next a {
+      color: black;
+      transition: 0.25s; }
+      .texto-exp .breadcrumb-next a:hover {
+        color: #d60c74; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .texto-exp {
@@ -197,30 +212,38 @@ footer {
 
 .contacto {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center; }
   .contacto a {
     text-decoration: none;
     color: black;
-    transition: 0.2s; }
+    transition: 0.3s; }
     .contacto a:hover {
       color: #d60c74; }
   .contacto h2 {
     font-family: "Oswald", sans-serif;
-    text-decoration: none;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
   .contacto img {
     align-self: center;
     justify-self: center;
     height: 4.5rem;
     margin: 40px; }
+    .contacto img a {
+      transition: 0.5s; }
+      .contacto img a:hover {
+        transform: scale(10px); }
 
 .redes-contact {
-  align-self: center;
-  justify-self: center; }
-  .redes-contact a {
-    transition: 0.5s; }
-    .redes-contact a:hover {
-      transform: scale(10px); }
+  width: 100vw; }
+  .redes-contact ul {
+    display: flex;
+    justify-content: center; }
+  .redes-contact li {
+    list-style-type: none;
+    transition: 0.2s; }
+    .redes-contact li:hover {
+      transform: scale(1.5); }
 
 /*Vista Desktop*/
 @media only screen and (min-width: 1240px) {
@@ -253,7 +276,8 @@ footer {
 
 @media only screen and (min-width: 1240px) {
   .videos-desktop {
-    display: inline-block; }
+    display: inline-block;
+    overflow: hidden; }
   .videos-mobile {
     display: none; } }
 
@@ -261,4 +285,5 @@ footer {
   .videos-desktop {
     display: none; }
   .videos-mobile {
-    display: inline-block; } }
+    display: inline-block;
+    overflow: hidden; } }

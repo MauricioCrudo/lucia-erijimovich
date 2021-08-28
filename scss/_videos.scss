@@ -14,6 +14,7 @@
 @media only screen and (min-width: 1240px) {
   .videos-desktop {
     display: inline-block;
+    overflow: hidden;
   }
   .videos-mobile {
     display: none;
@@ -25,5 +26,6 @@
   }
   .videos-mobile {
     display: inline-block;
+    overflow: hidden;
   }
 }
