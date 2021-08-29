@@ -28,7 +28,8 @@ main {
   animation: navbar 0.5s; }
 
 main {
-  min-height: 80vh; }
+  min-height: 80vh;
+  max-width: 100vw; }
   main h1 {
     font-family: "Oswald", sans-serif;
     text-align: center;
@@ -110,7 +111,7 @@ footer {
   flex-direction: column; }
 
 .breadcrumb-back {
-  width: 85vw;
+  width: 83vw;
   position: relative;
   left: 15vw; }
   .breadcrumb-back a {
