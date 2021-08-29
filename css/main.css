@@ -233,6 +233,7 @@ main {
     margin-top: 10px; }
 
 .contacto {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -251,6 +252,8 @@ main {
     justify-self: center;
     height: 4.5rem;
     margin: 40px; }
+    .contacto img #minerva {
+      height: 10rem; }
     .contacto img a {
       transition: 0.5s; }
       .contacto img a:hover {
@@ -277,14 +280,18 @@ main {
   h2 {
     font-size: 4rem; }
   .redes-contact img {
-    height: 3.5rem; } }
+    height: 3.5rem; }
+  .redes-contact #minerva {
+    height: 4rem; } }
 
 /*Vista Mobile*/
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   h2 {
     font-size: 1.8rem; }
   .redes-contact img {
-    height: 3.5rem; } }
+    height: 3.5rem; }
+    .redes-contact img #minerva {
+      height: 4rem; } }
 
 .videos-flex {
   display: flex;

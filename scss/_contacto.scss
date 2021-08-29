@@ -1,5 +1,6 @@
 @import "variables";
 .contacto {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,6 +25,9 @@
     justify-self: center;
     height: 4.5rem;
     margin: 40px;
+    #minerva{
+      height: 10rem;
+    }
     a{
       transition: 0.5s;
         &:hover{
@@ -61,6 +65,9 @@
     img {
       height: 3.5rem;
     }
+    #minerva{
+      height: 4rem;
+    }
   }
 }
 /*Vista Mobile*/
@@ -71,6 +78,9 @@
   .redes-contact {
     img {
       height: 3.5rem;
+      #minerva{
+        height: 4rem;
+      }
     }
   }
 }
