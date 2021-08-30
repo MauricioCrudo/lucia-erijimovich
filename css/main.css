@@ -67,6 +67,12 @@ main {
 .navbar {
   animation: navbar 0.5s; }
 
+.e404 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 5vh;
+  margin: 30px; }
+
 .navbar-index {
   position: static; }
 
