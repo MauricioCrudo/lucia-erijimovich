@@ -8,17 +8,17 @@
 header {
   font-family: $font1;
   @media only screen and (min-width: 1240px) {
-  nav{
-    min-height: 4vh;
-    max-height: 6vh;
-    background-color: none;
+    nav {
+      min-height: 4vh;
+      max-height: 6vh;
+      background-color: none;
+    }
   }
-}
 }
 // Main
 main {
   min-height: 83vh;
-    h1 {
+  h1 {
     font-family: $font1;
     text-align: center;
     margin: 20px;
@@ -41,7 +41,7 @@ main {
 // footer
 footer {
   overflow: hidden;
-  max-height:7vh;
+  max-height: 7vh;
 
   .copyright {
     font-family: $font1;
@@ -90,7 +90,7 @@ main {
     opacity: 1;
   }
 }
-.navbar  {
+.navbar {
   animation: navbar 0.5s;
 }
 // 404
