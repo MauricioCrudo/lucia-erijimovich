@@ -17,35 +17,39 @@
     font-family: $font1;
     text-align: center;
     text-decoration: none;
+    margin: 30px;
   }
   //   logos de redes
 
   img {
     align-self: center;
     justify-self: center;
-    height: 4.5rem;
-    margin: 40px;
-    #minerva{
-      height: 10rem;
-    }
-    a{
+    height: 4.5rem; 
+    
+    a {
       transition: 0.5s;
-        &:hover{
-          transform: scale(10px);
-        }
+      &:hover {
+        transform: scale(10px);
+      }
     }
   }
 }
 .redes-contact {
+  margin: 18px;
   width: 100%;
-  ul{
-    display: flex;
-    justify-content: center;
+  #minerva {
+    height: 6rem;
   }
-  li{
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+  }
+  li {
+    
     list-style-type: none;
     transition: 0.2s;
-    &:hover{
+    &:hover {
       transform: scale(1.5);
     }
   }
@@ -63,9 +67,9 @@
   }
   .redes-contact {
     img {
-      height: 3.5rem;
+      height: 3rem;
     }
-    #minerva{
+    #minerva {
       height: 4rem;
     }
   }
@@ -76,11 +80,11 @@
     font-size: 1.8rem;
   }
   .redes-contact {
+    #minerva {
+      height: 5rem;
+    }
     img {
-      height: 3.5rem;
-      #minerva{
-        height: 4rem;
-      }
+      height: 3rem;
     }
   }
 }

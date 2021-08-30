@@ -29,34 +29,34 @@
 }
 // textos individuales
 .main-text-exp {
-  overflow: hidden; 
+  overflow: hidden;
 }
 .texto-exp {
   text-align: center;
   font-family: $font4;
   line-height: 5vh;
-  
-  .breadcrumb-back{
-      a{
+
+  .breadcrumb-back {
+    a {
       color: black;
       transition: 0.25s;
-      &:hover{
-        color:rgb(214, 12, 116) ;
-      }
+      &:hover {
+        color: rgb(214, 12, 116);
       }
     }
-  .breadcrumb-next{
+  }
+  .breadcrumb-next {
     width: 85vw;
     display: flex;
     justify-content: flex-end;
     align-self: center;
-    a{
+    a {
       color: black;
       transition: 0.25s;
-      &:hover{
-        color:rgb(214, 12, 116) ;
+      &:hover {
+        color: rgb(214, 12, 116);
       }
-      }
+    }
   }
 }
 
