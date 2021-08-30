@@ -1,7 +1,6 @@
 @import "variables";
 .textos-main {
   overflow: hidden;
-  height: 83vh;
 }
 .textos-flex {
   display: flex;
@@ -35,6 +34,7 @@
   text-align: center;
   font-family: $font4;
   line-height: 5vh;
+  margin: 30px;
 
   .breadcrumb-back {
     a {

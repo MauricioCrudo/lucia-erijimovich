@@ -88,7 +88,7 @@ main {
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .main-index img {
       object-fit: cover;
-      height: 93vh; } }
+      height: 91vh; } }
 
 #autorretrato {
   object-position: 50% 15%; }
@@ -160,8 +160,7 @@ main {
     margin: 5px; } }
 
 .textos-main {
-  overflow: hidden;
-  height: 83vh; }
+  overflow: hidden; }
 
 .textos-flex {
   display: flex;
@@ -188,7 +187,8 @@ main {
 .texto-exp {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  line-height: 5vh; }
+  line-height: 5vh;
+  margin: 30px; }
   .texto-exp .breadcrumb-back a {
     color: black;
     transition: 0.25s; }
