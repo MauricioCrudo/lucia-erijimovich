@@ -1,7 +1,7 @@
 @import "variables";
 // section obras
 #autorretrato {
-  object-position:50% 15%
+  object-position: 50% 15%;
 }
 #gallery-modal .modal-img {
   width: 100%;
@@ -9,7 +9,7 @@
 .gallery {
   display: flex;
   flex-direction: column;
-  
+
   img {
     width: 100%;
     height: 400px;
@@ -20,7 +20,6 @@
     &:hover {
       transform: scale(1.05);
     }
-   
   }
 }
 .obras-main {
