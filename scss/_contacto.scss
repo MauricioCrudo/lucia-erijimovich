@@ -24,8 +24,8 @@
   img {
     align-self: center;
     justify-self: center;
-    height: 4.5rem; 
-    
+    height: 4.5rem;
+
     a {
       transition: 0.5s;
       &:hover {
@@ -43,10 +43,9 @@
   ul {
     width: 100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
   }
   li {
-    
     list-style-type: none;
     transition: 0.2s;
     &:hover {
@@ -88,3 +87,4 @@
     }
   }
 }
+// Final
