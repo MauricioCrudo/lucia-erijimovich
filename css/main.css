@@ -55,7 +55,7 @@ footer {
     opacity: 1;
     transform: translate(0); } }
 
-main {
+.animation {
   animation: transitionIn 0.5s; }
 
 @keyframes navbar {
